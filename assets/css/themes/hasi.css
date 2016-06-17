@@ -73,6 +73,22 @@ a,
   color: black;
 }
 
+.toolbar-shadow.toolbar-shadow .space_state{
+  background-color: #3a3a3a;
+  color: #00ff00;
+}
+
+.space_state {
+  margin-left: 0.4rem;
+	border-radius: 0.2rem;
+	font-family: Big Noodle Titling;
+	padding: 0.1rem 0.2rem;
+	text-align: center;
+	background-color: white;
+	color: #3a3a3a;
+  font-size: 90%;
+}
+
 .header-search input[placeholder], .header-search .search-icon  {
   color: #3a3a3a;
 }
