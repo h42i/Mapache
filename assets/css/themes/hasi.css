@@ -1,0 +1,102 @@
+/*
+#3a3a3a = black
+ */
+
+@font-face {
+   font-family: "Asap";
+   src: url("../../fonts/asap.ttf");
+}
+@font-face {
+   font-family: "Asap";
+   src: url("../../fonts/asap_bold.ttf");
+   font-weight: bold;
+}
+@font-face {
+   font-family: "Asap";
+   src: url("../../fonts/asap_italic.ttf");
+   font-style: italic, oblique;
+}
+@font-face {
+   font-family: "Asap";
+   src: url("../../fonts/asap_bolditalic.ttf");
+   font-weight: bold;
+   font-style: italic, oblique;
+}
+
+@font-face {
+   font-family: "Big Noodle Titling";
+   src: url("../../fonts/big_noodle_titling.ttf");
+}
+
+
+a,
+.btn,
+.pagination .pagination-link {
+    color: #0f9d58
+}
+
+.header {
+  font-family: Big Noodle Titling, sans-serif;
+}
+.header-navigation .navigation-link {
+  font-size: 120%;
+}
+.header.toolbar-shadow,
+.cover,
+.btn.btn-primary,
+.sidebar .title-primary {
+    background-color: #00FF00 !important;
+    color: #3a3a3a;
+}
+.header.toolbar-shadow .header-logo {
+  -webkit-filter: invert(100%);
+  -moz-filter:invert(100%);
+  filter: invert(100%);
+}
+
+.background{
+  z-index: -1;
+}
+.cover {
+  height: 18rem;
+}
+
+.toolbar-shadow .header-navigation .navigation-link.active {
+  border-bottom-color: #3a3a3a;
+}
+
+.toolbar-shadow  .header-navigation .navigation-link:hover  {
+  color: black;
+}
+
+.toolbar-shadow .header-social a:hover {
+  color: black;
+}
+
+.header-search input[placeholder], .header-search .search-icon  {
+  color: #3a3a3a;
+}
+.form-control:focus {
+    border-color: #0f9d58 !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(15, 157, 88, 0.6)
+}
+.btn.btn-download-cloud,
+.btn.btn-download {
+    background-color: #0f9d58
+}
+.btn.btn-download-cloud:hover,
+.btn.btn-download:hover {
+    background-color: #0b7843
+}
+.pagination .pagination-link:before {
+    border: 2px solid #0f9d58
+}
+.pagination .pagination-link.loanding:before {
+    border-bottom: 2px solid #0f9d58
+}
+blockquote {
+    border-left: 3px solid #0f9d58
+}
+body {
+  font-family: Asap, sans-serif;
+}
