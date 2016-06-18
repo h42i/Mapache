@@ -79,13 +79,13 @@ a,
 }
 
 .space_state {
-  margin-left: 0.4rem;
-	border-radius: 0.2rem;
-	font-family: Big Noodle Titling;
-	padding: 0.1rem 0.2rem;
-	text-align: center;
-	background-color: white;
-	color: #3a3a3a;
+  margin-left: 0.8rem;
+  border-radius: 0.2rem;
+  font-family: Big Noodle Titling;
+  padding: 0.1rem 0.2rem;
+  text-align: center;
+  background-color: white;
+  color: #3a3a3a;
   font-size: 90%;
 }
 
