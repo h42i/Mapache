@@ -525,7 +525,7 @@ a.external:after {
 }
 body {
     color: #424242;
-    font-family: "Roboto", sans-serif;
+    font-family: "Asap", sans-serif;
     font-size: 1rem;
     line-height: 1.5
 }
@@ -1215,7 +1215,7 @@ h6,
 .h5,
 .h6 {
     margin-bottom: .5rem;
-    font-family: "Roboto", sans-serif;
+    font-family: "Asap", sans-serif;
     font-weight: 500;
     line-height: 1.1;
     color: inherit
@@ -1874,7 +1874,7 @@ input.search-field:focus {
     color: #039be5;
     cursor: pointer;
     display: inline-block;
-    font: 500 14px/20px "Roboto", sans-serif;
+    font: 500 14px/20px "Asap", sans-serif;
     height: 36px;
     margin: 0;
     min-width: 36px;
@@ -2213,7 +2213,7 @@ input.search-field:focus {
 .subscribe h3 {
     margin: 0;
     margin-bottom: 8px;
-    font: 400 20px/32px "Roboto", sans-serif
+    font: 400 20px/32px "Asap", sans-serif
 }
 .subscribe .btn {
     width: 100%
