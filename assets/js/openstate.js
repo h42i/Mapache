@@ -6,7 +6,7 @@ function startContinuousUpdate(id, interval) {
 }
 
 var openTextElement =  document.createTextNode("open");
-var closedTextElement =  document.createTextNode("open");
+var closedTextElement =  document.createTextNode("closed");
 var naTextElement =  document.createTextNode("n/a");
 
 
