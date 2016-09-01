@@ -1,0 +1,198 @@
+{{!-- Add Layout --}}
+{{!< default}}
+{{#post}}
+    <main class="container">
+        <section class="margin-top">
+            <article class="post" style="max-width:1000px;margin:0 auto;min-height: 100vh;">
+                <h1 class="post-title">{{title}}</h1>
+                {{#if image}}
+                    <figure class="post-image"><img src="{{image}}" alt="{{title}}" class="img-responsive" /></figure>
+                {{/if}}
+                <style>
+
+                    .calendar {
+                      position: relative;
+                      bottom: 0;
+                    }
+                    .date {
+                        float: right;
+                        width: 5rem;
+                        height: 5rem;
+                        background-color: #3a3a3a;
+                        border-radius: 5rem;
+                        text-align: center;
+                        display: table;
+                        font-size: 120%;
+                        color: #fff;
+                    }
+
+                    .date .center {
+                        display: table-cell;
+                        vertical-align: middle;
+                    }
+                    .timeline {
+                      position: absolute;
+                      top: 5rem;
+                      right: 2.4rem;
+                      bottom: 0;
+                      background-color: #3a3a3a;
+                      width: 0.2rem;
+                      z-index: -1;
+                    }
+                    .event {
+                      position: relative;
+                      padding-bottom: 5rem;
+                    }
+
+                    .event-main {
+                      position: relative;
+                      margin-right: 2.5rem;
+                      top: 2.5rem;
+                      padding: 2rem;
+                      /* Danke, raumzeitlabor! */
+                      box-shadow: 0 1px 6px rgba(0,0,0,.175);
+                      border: 1px solid #d4d4d4;
+                      z-index: -2;
+                    }
+
+                    .event-main h2 {
+                      margin: 0;
+                    }
+
+                    .bubble-event-day {
+                      font-size: 1.6rem;
+                      display: block;
+                      margin-bottom: -0.3rem;
+                    }
+
+                    .bubble-event-date {
+                      font-size: 0.8rem;
+                      display: block;
+                    }
+
+                    @media (min-width: 700px) {
+                      .event-image {
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        position: absolute;
+                        top: 2.5rem;
+                        bottom: 2.5rem;
+                        right: 2.5rem;
+                        width: 20rem;
+                        z-index: -3;
+                      }
+                      .event-main {
+                        padding-right: 21rem;
+                      }
+                    }
+
+                    .event-time-place {
+                      font-size: 0.85rem;
+                      margin-top: 0.5rem;
+                    }
+
+                    .event-icon {
+                      vertical-align: 0%;
+                      width: 1rem;
+                      text-align: center;
+                    }
+                </style>
+                <div class="calendar">
+                  <div class="timeline"></div>
+                  <div>
+                    <div class="event">
+                        <div class="date">
+                          <span class="center">
+                            <span class="bubble-event-day">DO</span>
+                            <span class="bubble-event-date">01.09.</span>
+                          </span>
+                        </div>
+                        <div class="event-image" style="background-image: url(http://files.hasi.it/img/hacknafa.jpg)"></div>
+                        <div class="event-main">
+                          <h2 id="a-nameitem-58359a2c-28df-4b09-8bab-e6bd5e3f0654-hrefcalendarsummary-58359a2c-28df-4b09-8bab-e6bd5e3f0654open-hackinga"><a name="item-58359A2C-28DF-4B09-8BAB-E6BD5E3F0654" href="/calendar/#summary-58359A2C-28DF-4B09-8BAB-E6BD5E3F0654">Open Hacking</a></h2>
+                          <p class="event-time-place">
+                              <i class="fa fa-clock-o event-icon"></i> 30. 08. 2016, 17:30 Uhr<br>
+                              <i class="fa fa-map-marker event-icon"></i> Hackspace Siegen, Effertsufer 104, 57072 Siegen, Deutschland
+                          </p>
+
+                          <p>Gemeinsames Hacken bei Mate und gemütlicher Atmosphäre.</p>
+
+                          <p><em>Folgetermine:</em> 06. 09. 2016, 13. 09. 2016, 20. 09. 2016…</p>
+                        </div>
+                    </div>
+
+                    <div class="event">
+                        <div class="date">
+                          <span class="center">
+                            <span class="bubble-event-day">MI</span>
+                            <span class="bubble-event-date">31.08.</span>
+                          </span>
+                        </div>
+                        <div class="event-main">
+                          <h2 id="a-nameitem-58359a2c-28df-4b09-8bab-e6bd5e3f0654-hrefcalendarsummary-58359a2c-28df-4b09-8bab-e6bd5e3f0654open-hackinga"><a name="item-58359A2C-28DF-4B09-8BAB-E6BD5E3F0654" href="/calendar/#summary-58359A2C-28DF-4B09-8BAB-E6BD5E3F0654">Open Hacking</a></h2>
+                          <p class="event-time-place">
+                              <i class="fa fa-clock-o event-icon"></i> 30. 08. 2016, 17:30 Uhr<br>
+                              <i class="fa fa-map-marker event-icon"></i> Hackspace Siegen, Effertsufer 104, 57072 Siegen, Deutschland
+                          </p>
+
+                          <p>Gemeinsames Hacken bei Mate und gemütlicher Atmosphäre.</p>
+
+                          <p><em>Folgetermine:</em> 06. 09. 2016, 13. 09. 2016, 20. 09. 2016…</p>
+                        </div>
+
+                    </div>
+
+                    <div class="event">
+                        <div class="date">
+                          <span class="center">
+                            <span class="bubble-event-day">DI</span>
+                            <span class="bubble-event-date">30.08.</span>
+                          </span>
+                        </div>
+                        <div class="event-image" style="background-image: url(http://files.hasi.it/img/2782.jpg)"></div>
+                        <div class="event-main">
+                          <h2 id="a-nameitem-58359a2c-28df-4b09-8bab-e6bd5e3f0654-hrefcalendarsummary-58359a2c-28df-4b09-8bab-e6bd5e3f0654open-hackinga"><a name="item-58359A2C-28DF-4B09-8BAB-E6BD5E3F0654" href="/calendar/#summary-58359A2C-28DF-4B09-8BAB-E6BD5E3F0654">Open Hacking</a></h2>
+                          <p class="event-time-place">
+                              <i class="fa fa-clock-o event-icon"></i> 30. 08. 2016, 17:30 Uhr<br>
+                              <i class="fa fa-map-marker event-icon"></i> Hackspace Siegen, Effertsufer 104, 57072 Siegen, Deutschland
+                          </p>
+
+                          <p>Gemeinsames Hacken bei Mate und gemütlicher Atmosphäre.</p>
+                          <p><em>Folgetermine:</em> 06. 09. 2016, 13. 09. 2016, 20. 09. 2016…</p>
+                        </div>
+
+                    </div>
+
+                    <div class="event">
+                        <div class="date" class="center">
+                          <span class="center">
+                            <span class="bubble-event-day">{week_day}</span>
+                            <span class="bubble-event-date">{date}</span>
+                          </span>
+                        </div>
+                        <!-- optional -->
+                        <div class="event-image" style="background-image: url({image})"></div>
+                        <!-- /optional -->
+                        <div class="event-main">
+                          <h2>{title}</h2>
+                          <p class="event-time-place">
+                              <i class="fa fa-clock-o event-icon"></i> {date_time}<br>
+                              <i class="fa fa-map-marker event-icon"></i> {location}
+                          </p>
+
+                          <p>{content}</p>
+                          <p><em>Folgetermine:</em> {follow_ups}</p>
+                        </div>
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+            </article>
+        </section>
+    </main>
+{{/post}}
