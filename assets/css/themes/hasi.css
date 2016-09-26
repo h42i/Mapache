@@ -57,8 +57,10 @@ a,
   z-index: -1;
 }
 .cover {
-  height: 12rem;
+  height: 18rem;
 }
+
+.hasi-logo { -webkit-filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 1));}
 
 .toolbar-shadow .header-navigation .navigation-link.active {
   border-bottom-color: #3a3a3a;

@@ -1652,8 +1652,8 @@ input.search-field:focus {
     content: ' ';
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.7)))*/
+    background-color: rgba(0, 0, 0, 0.2);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0)));
 }
 .author .info {
     overflow: hidden;
