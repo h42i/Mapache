@@ -56,8 +56,9 @@ a,
 .background{
   z-index: -1;
 }
+
 .cover {
-  height: 18rem;
+    height: 32vh;
 }
 
 .hasi-logo { -webkit-filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 1));}
@@ -96,6 +97,17 @@ a,
 
 .cover .cover-title {
     margin: 0rem 0rem -1.0rem 0rem;
+}
+
+.cover-title {
+    color: #ffffff;
+    font-size: 5rem;
+}
+
+@media (max-width: 500px) {
+  .logo-index {
+    display: none;
+  }
 }
 
 .form-control:focus {
